@@ -1,0 +1,491 @@
+{"event":"end","ts":"2025-06-19T12:58:36.585596Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":170508,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:36.586349Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":170528,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:36.586657Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":170617,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:37.585597Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":170508,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:38.591551Z","user":"alice","method":"CONNECT","host":"encrypted-tbn0.gstatic.com","port":443,"ok":true,"ms":170846,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:39.594800Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":172051,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:39.595425Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":174036,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:51.605226Z","user":"alice","method":"CONNECT","host":"cdn.localizeapi.com","port":443,"ok":true,"ms":170667,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:51.605828Z","user":"alice","method":"CONNECT","host":"ajax.googleapis.com","port":443,"ok":true,"ms":170669,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:51.606103Z","user":"alice","method":"CONNECT","host":"d3e54v103j8qbb.cloudfront.net","port":443,"ok":true,"ms":170647,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:52.605703Z","user":"alice","method":"CONNECT","host":"cdn.discordapp.com","port":443,"ok":true,"ms":170714,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:53.613636Z","user":"alice","method":"CONNECT","host":"discord.com","port":443,"ok":true,"ms":173251,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:53.614303Z","user":"alice","method":"CONNECT","host":"hubspotonwebflow.com","port":443,"ok":true,"ms":172638,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:53.614617Z","user":"alice","method":"CONNECT","host":"geolocation.onetrust.com","port":443,"ok":true,"ms":170672,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:53.614750Z","user":"alice","method":"CONNECT","host":"www.youtube.com","port":443,"ok":true,"ms":170723,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:53.614824Z","user":"alice","method":"CONNECT","host":"cdn.prod.website-files.com","port":443,"ok":true,"ms":172670,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:55.628715Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":170348,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:55.628982Z","user":"alice","method":"CONNECT","host":"www.googletagmanager.com","port":443,"ok":true,"ms":173069,"error":null}
+{"event":"end","ts":"2025-06-19T12:58:57.630101Z","user":"alice","method":"CONNECT","host":"www.google-analytics.com","port":443,"ok":true,"ms":171315,"error":null}
+{"event":"block","ts":"2025-06-19T12:59:41.788217Z","user":"","method":"GET","host":"test.com","port":80}
+{"event":"start","ts":"2025-06-19T12:59:43.385799Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:44.490303Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:44.902806Z","user":"","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:44.967594Z","user":"","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:44.996113Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:46.003092Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T12:59:49.546454Z","user":"","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T12:59:50.091865Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5107,"error":"400 Bad Request: EOF before headers complete"}
+{"event":"end","ts":"2025-06-19T12:59:51.096467Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5541,"error":"400 Bad Request: EOF before headers complete"}
+{"event":"end","ts":"2025-06-19T12:59:54.380350Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":8377,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.382310Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":9386,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.383081Z","user":"","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ok":true,"ms":4836,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.383197Z","user":"","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":9415,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.383269Z","user":"","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":9480,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.383302Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":9893,"error":null}
+{"event":"end","ts":"2025-06-19T12:59:54.383331Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":10997,"error":null}
+{"event":"start","ts":"2025-06-19T13:00:02.707545Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:03.231584Z","user":"","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:03.349644Z","user":"","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:03.353134Z","user":"","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:03.431856Z","user":"","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:03.550239Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:00:03.562596Z","user":"","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":130,"error":null}
+{"event":"start","ts":"2025-06-19T13:00:03.737211Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:04.551393Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:04.696548Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:05.289403Z","user":"","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:05.355684Z","user":"","method":"POST","host":"ocsp.digicert.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:33.256239Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:33.631025Z","user":"","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:33.726933Z","user":"","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:33.826517Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:34.795273Z","user":"","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:00:34.826534Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:00:39.652156Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5923,"error":"400 Bad Request: EOF before headers complete"}
+{"event":"end","ts":"2025-06-19T13:00:40.658558Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5859,"error":"400 Bad Request: EOF before headers complete"}
+{"event":"start","ts":"2025-06-19T13:01:30.088728Z","user":"","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:01:30.296155Z","user":"","method":"CONNECT","host":"encrypted-tbn0.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"block","ts":"2025-06-19T13:01:32.023470Z","user":"","method":"GET","host":"test.com","port":80}
+{"event":"block","ts":"2025-06-19T13:01:32.043293Z","user":"","method":"GET","host":"test.com","port":80}
+{"event":"end","ts":"2025-06-19T13:03:24.105230Z","user":"","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":170278,"error":null}
+{"event":"end","ts":"2025-06-19T13:03:24.106584Z","user":"","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":170380,"error":null}
+{"event":"end","ts":"2025-06-19T13:03:24.106741Z","user":"","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":170475,"error":null}
+{"event":"end","ts":"2025-06-19T13:03:25.111518Z","user":"","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":170285,"error":null}
+{"event":"end","ts":"2025-06-19T13:03:26.114584Z","user":"","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":171416,"error":null}
+{"event":"end","ts":"2025-06-19T13:03:41.841306Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:03:45.229267Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:03:51.045514Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"start","ts":"2025-06-19T13:03:57.458166Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:03:57.890977Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:03:58.017512Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:03:58.136108Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:03:58.183493Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:03:58.340637Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":204,"error":null}
+{"event":"start","ts":"2025-06-19T13:03:59.131520Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:03:59.181828Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:01.385392Z","user":"alice","method":"CONNECT","host":"www.google.com.sg","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:01.801041Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:02.008371Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:03.014621Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:03.598128Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:05.055224Z","user":"alice","method":"CONNECT","host":"lh3.googleusercontent.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"block","ts":"2025-06-19T13:04:05.795265Z","user":"alice","method":"GET","host":"test.com","port":80}
+{"event":"start","ts":"2025-06-19T13:04:09.794682Z","user":"alice","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:09.842215Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:10.067831Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5219,"error":"400 Bad Request: EOF before headers complete"}
+{"event":"start","ts":"2025-06-19T13:04:11.230258Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:11.233203Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:11.233947Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:11.234659Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:11.391050Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":158,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:11.406672Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":173,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304289Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":6074,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304440Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ok":true,"ms":7462,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304554Z","user":"alice","method":"CONNECT","host":"lh3.googleusercontent.com","port":443,"ok":true,"ms":12249,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304667Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":15503,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304710Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":6071,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304742Z","user":"alice","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ok":true,"ms":7510,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304772Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":13706,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304796Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":14290,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304870Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":19414,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304899Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":15296,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304923Z","user":"alice","method":"CONNECT","host":"www.google.com.sg","port":443,"ok":true,"ms":15919,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304946Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":18123,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304975Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":18288,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.304999Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":19121,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.305020Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":19287,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:17.305048Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":19848,"error":null}
+{"event":"end","ts":"2025-06-19T13:04:19.625013Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:19.625352Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:19.927470Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:19.945883Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":7,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.117485Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":2,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.153667Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.567720Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.597225Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.642115Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.650526Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.779494Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.783648Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.787521Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.814861Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.818233Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.820010Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.891908Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.899153Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:20.900679Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:21.777003Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:21.778551Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:21.779752Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:24.981858Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:25.428667Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:25.612548Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:25.899182Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:26.250285Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:26.565472Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.166081Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.166607Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.167242Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.978472Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.986970Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.987384Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:04:27.987540Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"start","ts":"2025-06-19T13:04:35.486180Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:35.487266Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:35.648807Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:35.725067Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":239,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:36.063220Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:36.089378Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":26,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:40.806720Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:40.862920Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:45.401019Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:45.488260Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:45.563019Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":162,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:45.866913Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:45.929885Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":63,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:45.989573Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:46.002898Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":13,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:46.064018Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:46.109836Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":46,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:46.167618Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:46.238308Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":70,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:46.297038Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:46.357906Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":61,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:46.368412Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:46.580937Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":5718,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:46.706198Z","user":"alice","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:46.746309Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.150114Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.291410Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.292550Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.388789Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.412477Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.476106Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:47.584130Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":108,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:47.633388Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:47.934316Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:48.632752Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:48.838463Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":205,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:50.012420Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:50.032590Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:50.082980Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":50,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:50.083400Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:51.632672Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:51.681999Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":49,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:51.740825Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:51.773691Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":33,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:51.832471Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:51.857403Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":25,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:51.914903Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:51.986659Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":72,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:52.040407Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:04:52.092764Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":52,"error":null}
+{"event":"start","ts":"2025-06-19T13:04:53.278753Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:57.006648Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:04:57.484535Z","user":"alice","method":"CONNECT","host":"firefox.settings.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:20.782162Z","user":"alice","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:21.846622Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.210828Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:22.236665Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":25,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:22.385417Z","user":"alice","method":"CONNECT","host":"ogs.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.662986Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.670695Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.674110Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.674456Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.674621Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.674748Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:22.674858Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:23.048693Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":378,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:23.072428Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":399,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:23.110465Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":437,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:23.117558Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":444,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:23.175246Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":502,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:23.674839Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:24.715627Z","user":"alice","method":"CONNECT","host":"ogs.google.com","port":443,"ok":true,"ms":2330,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:24.715730Z","user":"alice","method":"CONNECT","host":"incoming.telemetry.mozilla.org","port":443,"ok":true,"ms":3933,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:24.715770Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":1041,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:24.715798Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":2869,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:24.715824Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":2053,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:24.715849Z","user":"alice","method":"CONNECT","host":"fonts.gstatic.com","port":443,"ok":true,"ms":2042,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:26.722232Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":6,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:26.722910Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.032645Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.049119Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":10,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.102902Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":3,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.132935Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.228041Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.326259Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.340846Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.370766Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.400622Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.405541Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.405867Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.430990Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.469003Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.474059Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.475778Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.522952Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.524875Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.525817Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.540487Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.542646Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:27.544199Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:28.436162Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:28.441613Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:28.442974Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"start","ts":"2025-06-19T13:05:31.742266Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.742850Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.743813Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.744914Z","user":"alice","method":"CONNECT","host":"firefox.settings.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.745315Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.745467Z","user":"alice","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.842297Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:31.915818Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:32.006981Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":265,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:32.034737Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.035176Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.035398Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.036932Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.037418Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.037641Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:32.055558Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":313,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:32.262674Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.274098Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:32.318115Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":576,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.318395Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":476,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.318687Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ok":true,"ms":403,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.318862Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":576,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.319038Z","user":"alice","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ok":true,"ms":576,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.319124Z","user":"alice","method":"CONNECT","host":"firefox.settings.services.mozilla.com","port":443,"ok":true,"ms":577,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:32.324210Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.347900Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.348631Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:32.364037Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:32.640778Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":605,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:32.795797Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":521,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:33.055949Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:33.072556Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1038,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.074820Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1039,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.099276Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":836,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.100029Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":44,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.289404Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1253,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.418268Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1384,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:33.473618Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1439,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:33.791189Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:33.862715Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":71,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:33.916014Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:33.946645Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":30,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:33.995717Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:34.038001Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":42,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:34.100026Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:34.135751Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":35,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:34.193216Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:34.264620Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":71,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:34.271146Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:34.396640Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":2032,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:35.315528Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:35.448162Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":3124,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:35.495904Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.518841Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.638563Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:35.642214Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":3294,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:35.701193Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.812925Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.813277Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.813464Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.813722Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.830825Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:35.940828Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:35.973605Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":160,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:36.037159Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":224,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:36.105106Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":292,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:36.121035Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":308,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:36.198714Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":497,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:36.464428Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:36.517385Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:36.602539Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:36.941402Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:37.348285Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:37.539190Z","user":"alice","method":"CONNECT","host":"lh3.googleusercontent.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"block","ts":"2025-06-19T13:05:38.481325Z","user":"alice","method":"GET","host":"test.com","port":80}
+{"event":"block","ts":"2025-06-19T13:05:38.496410Z","user":"alice","method":"GET","host":"test.com","port":80}
+{"event":"end","ts":"2025-06-19T13:05:41.584424Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":4643,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584533Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":5120,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584572Z","user":"alice","method":"CONNECT","host":"lh3.googleusercontent.com","port":443,"ok":true,"ms":4048,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584601Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":4643,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584629Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ok":true,"ms":4982,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584745Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":5644,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584803Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":5644,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584838Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ok":true,"ms":5754,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584866Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ok":true,"ms":5946,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584937Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":6066,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.584998Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":6089,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.585035Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":7316,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.585062Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":6269,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:41.585087Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":9237,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:43.334359Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":1,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.335586Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.657301Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.674793Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":10,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.730372Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":5,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.757658Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.871833Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.972461Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":2,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:43.999361Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.004132Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.039182Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":6,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.040440Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.054835Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.057337Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.081688Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.085041Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.086464Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.123882Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.125274Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.126374Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.138297Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.140312Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:44.141189Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:45.058418Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:45.066403Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:45.067837Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"start","ts":"2025-06-19T13:05:48.103621Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.103824Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.103945Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.104019Z","user":"alice","method":"CONNECT","host":"firefox.settings.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.104079Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.104163Z","user":"alice","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.149364Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.161167Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:48.177452Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":74,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:48.186610Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":83,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:48.218673Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.219229Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.219423Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.220009Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.220302Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.220642Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.263110Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.263520Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.269263Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:48.277533Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:48.320381Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":100,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:48.321420Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":101,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:48.329549Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":109,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:48.432704Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":213,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:48.459440Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":240,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:49.040412Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:49.105440Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:49.127022Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":21,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:51.317732Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:51.437883Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":120,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:51.439699Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:51.507510Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:51.550640Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":43,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:51.635690Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:51.836074Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:52.780723Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:52.927347Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:52.936874Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:53.082668Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:53.260752Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:53.261449Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:53.261802Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:53.262084Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:53.455579Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":195,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.474456Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":213,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.477427Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":216,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.499994Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":5231,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.500649Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":5237,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.514755Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":5251,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.527336Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ok":true,"ms":5250,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.542074Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":459,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:53.588919Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":652,"error":null}
+{"event":"start","ts":"2025-06-19T13:05:53.604632Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:54.075137Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:54.191127Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:05:54.651175Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:05:57.969428Z","user":"alice","method":"CONNECT","host":"play.google.com","port":443,"ok":true,"ms":3318,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.969664Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":3778,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.969979Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":4365,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970471Z","user":"alice","method":"CONNECT","host":"ogads-pa.clients6.google.com","port":443,"ok":true,"ms":4366,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970632Z","user":"alice","method":"POST","host":"o.pki.goog","port":80,"ok":true,"ms":6531,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970738Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":6335,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970819Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":8931,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970852Z","user":"alice","method":"CONNECT","host":"csp.withgoogle.com","port":443,"ok":true,"ms":5043,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970878Z","user":"alice","method":"CONNECT","host":"www.gstatic.com","port":443,"ok":true,"ms":4710,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970902Z","user":"alice","method":"CONNECT","host":"www.googleadservices.com","port":443,"ok":true,"ms":5190,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970925Z","user":"alice","method":"CONNECT","host":"www.google.com","port":443,"ok":true,"ms":6135,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970947Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":9752,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.970969Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":9822,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.971054Z","user":"alice","method":"CONNECT","host":"aus5.mozilla.org","port":443,"ok":true,"ms":9867,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.971128Z","user":"alice","method":"CONNECT","host":"firefox.settings.services.mozilla.com","port":443,"ok":true,"ms":9867,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.971167Z","user":"alice","method":"CONNECT","host":"content-signature-2.cdn.mozilla.net","port":443,"ok":true,"ms":9867,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.971196Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ok":true,"ms":9867,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:57.971223Z","user":"alice","method":"POST","host":"ocsp.digicert.com","port":80,"ok":true,"ms":9810,"error":null}
+{"event":"end","ts":"2025-06-19T13:05:59.700532Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:05:59.701134Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.033367Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.043000Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":2,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.099091Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":4,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.130798Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.227400Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.352005Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.376692Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.380786Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:00.415147Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":1,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.411881Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.414215Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.415649Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.460854Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.463107Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:01.464272Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.555062Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.555365Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.555534Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.555673Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.555882Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":1,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:03.556152Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":1,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.096515Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.164920Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.371598Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.449027Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.449471Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.449778Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.450195Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.450408Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:05.450577Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"end","ts":"2025-06-19T13:06:10.189699Z","user":"","method":"-","host":"-","port":0,"ok":false,"ms":0,"error":"407 Proxy Authentication Required"}
+{"event":"start","ts":"2025-06-19T13:06:11.269574Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.270053Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.271449Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.271780Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.272124Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.272295Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.272550Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.365807Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.371104Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.394822Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.413711Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.445644Z","user":"alice","method":"POST","host":"r11.o.lencr.org","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:11.577958Z","user":"alice","method":"GET","host":"detectportal.firefox.com","port":80,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:06:12.218706Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":949,"error":null}
+{"event":"end","ts":"2025-06-19T13:06:12.286888Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1017,"error":null}
+{"event":"end","ts":"2025-06-19T13:06:12.287499Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1018,"error":null}
+{"event":"end","ts":"2025-06-19T13:06:12.302909Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1033,"error":null}
+{"event":"end","ts":"2025-06-19T13:06:12.339547Z","user":"alice","method":"CONNECT","host":"firefox-settings-attachments.cdn.mozilla.net","port":443,"ok":true,"ms":1070,"error":null}
+{"event":"start","ts":"2025-06-19T13:06:15.794609Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"start","ts":"2025-06-19T13:06:16.130005Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}
+{"event":"end","ts":"2025-06-19T13:06:16.154334Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ok":true,"ms":24,"error":null}
+{"event":"start","ts":"2025-06-19T13:06:36.160199Z","user":"alice","method":"CONNECT","host":"push.services.mozilla.com","port":443,"ua":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:139.0) Gecko/20100101 Firefox/139.0"}

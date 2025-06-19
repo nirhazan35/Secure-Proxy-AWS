@@ -1,0 +1,8 @@
+# Exact domains
+example.com
+badsite.org
+test.com
+
+# Wildcards
+*.ads.example.net
+*.tracking.co
