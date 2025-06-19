@@ -16,10 +16,16 @@ from typing import Dict
 
 _USERS: Dict[str, str] = {}  # username -> plaintext password (demo only!)
 
+class AuthError(Exception):
+    def __init__(self, msg: str, supplied_user: str | None = None):
+        super().__init__(msg)
+        self.supplied_user = supplied_user
 
 def _load_users() -> None:
-    """Populate _USERS from env var. Format:  'alice:secret,bob:1234'."""
-    raw = os.getenv("PROXY_USERS", "admin:admin")
+    """Populate _USERS from env"""
+    raw = os.getenv("PROXY_USERS", "")
+    if not raw:
+        raise AuthError("no users found")
     for pair in filter(None, (p.strip() for p in raw.split(","))):
         if ":" in pair:
             user, pwd = pair.split(":", 1)
@@ -28,9 +34,6 @@ def _load_users() -> None:
 
 _load_users()
 
-
-class AuthError(Exception):
-    pass
 
 
 @dataclass(frozen=True, slots=True)
@@ -48,15 +51,11 @@ def _decode_basic(header_val: str) -> tuple[str, str]:
         raise AuthError("Bad Base64") from e
 
 
-def authenticate(headers: Dict[str, str]) -> User:
+def authenticate(headers):
     auth_hdr = headers.get("proxy-authorization")
     if not auth_hdr:
-        raise AuthError("Missing Proxy-Authorization")
-
-    username, password = _decode_basic(auth_hdr)
-
-    stored = _USERS.get(username)
-    if stored is None or not hmac.compare_digest(stored, password):
-        raise AuthError("Bad credentials")
-
-    return User(username=username)
+        raise AuthError("Missing header")
+    user, pwd = _decode_basic(auth_hdr)
+    if user not in _USERS or _USERS[user] != pwd:
+        raise AuthError("Bad credentials", supplied_user=user)
+    return User(username=user)

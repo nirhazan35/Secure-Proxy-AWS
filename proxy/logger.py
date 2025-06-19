@@ -1,8 +1,7 @@
 """
 proxy.logger
 ~~~~~~~~~~~~
-JSON-line rotating logger (daily).  Keeps dependencies minimal by
-using stdlib logging.
+Human-readable *and* JSON logs with daily rotation.
 """
 
 from __future__ import annotations
@@ -10,102 +9,131 @@ from __future__ import annotations
 import json
 import logging
 import logging.handlers
-import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
-_ISO = "%Y-%m-%dT%H:%M:%S.%fZ"
+_ISO = "%Y-%m-%dT%H:%M:%SZ"
+
+def _now() -> str:  # RFC-3339 without microseconds
+    return datetime.now(tz=timezone.utc).strftime(_ISO)
+
+
+class _PlainFormatter(logging.Formatter):
+    """ e.g. 2025-06-19T15:07:02Z alice 127.0.0.1 GET http://e.com/ 200 4 327B 89 ms """
+
+    def format(self, record):  # type: ignore[override]
+        d: Dict[str, Any] = record.msg if isinstance(record.msg, dict) else {}
+        if record.levelno >= logging.ERROR:
+            return super().format(record)
+
+        parts = [
+            d.get("ts", _now()),
+            d.get("user", "-"),
+            d.get("ip", "-"),
+            d.get("method", "-"),
+            d.get("url", "-"),
+        ]
+        if record.msg["event"] == "block":
+            parts.extend(["BLOCKED", d.get("reason", "")])
+        else:  # end
+            parts.extend(
+                [
+                    str(d.get("status", "-")),
+                    f'{d.get("bytes", 0):,}B',
+                    f'{d.get("ms", 0)} ms',
+                ]
+            )
+        return " ".join(parts)
+
+
+class _JSONFormatter(logging.Formatter):
+    def format(self, record):  # type: ignore[override]
+        return json.dumps(record.msg, separators=(",", ":"))
 
 
 class ProxyLogger:
-    def __init__(self, path: str | Path):
-        self.log = logging.getLogger("proxy")
-        self.log.setLevel(logging.INFO)
-        handler = logging.handlers.TimedRotatingFileHandler(
-            filename=Path(path),
-            when="midnight",
-            backupCount=7,
-            encoding="utf-8",
+    def __init__(self, basename: str | Path):
+        root = logging.getLogger("proxy")
+        root.setLevel(logging.INFO)
+        root.propagate = False  # don’t spam the root logger
+
+        basename = Path(basename).with_suffix("")  # proxy_access
+        jsonl_file = basename.with_suffix(".jsonl")
+
+        # json lines
+        h = logging.handlers.TimedRotatingFileHandler(
+            jsonl_file, when="midnight", backupCount=7, encoding="utf-8"
         )
-        handler.setFormatter(_JsonFormatter())  # type: ignore[arg-type]
-        self.log.addHandler(handler)
+        h.setFormatter(_JSONFormatter())
+        root.addHandler(h)
 
-    # ------------------------------------------------------------------ #
-    # public helpers
-    # ------------------------------------------------------------------ #
+        self.log = root
 
-    def log_start(
+    def start(
         self,
-        user,
-        method,
-        host,
-        port,
-        headers: Dict[str, str],
+        user: str,
+        ip: str,
+        method: str,
+        url: str,
+        ua: str,
     ):
+        if user == "-":
+            return
         self.log.info(
             {
                 "event": "start",
                 "ts": _now(),
-                "user": _u(user),
+                "user": user,
+                "ip": ip,
                 "method": method,
-                "host": host,
-                "port": port,
-                "ua": headers.get("user-agent", ""),
-            },
+                "url": url,
+                "ua": ua,
+            }
         )
 
-    def log_end(
+    def end(
         self,
-        user,
-        method,
-        host,
-        port,
-        ok: bool,
-        duration: float,
-        error: Optional[str] = None,
+        user: str,
+        method: str,
+        url: str,
+        status: int,
+        total_bytes: int,
+        duration_ms: int,
     ):
+        if user == "-":
+            return
         self.log.info(
             {
                 "event": "end",
                 "ts": _now(),
-                "user": _u(user),
+                "user": user,
                 "method": method,
-                "host": host,
-                "port": port,
-                "ok": ok,
-                "ms": int(duration * 1000),
-                "error": error,
-            },
+                "url": url,
+                "status": status,
+                "bytes": total_bytes,
+                "ms": duration_ms,
+            }
         )
 
-    def log_block(self, user, method, host, port):
+    def block(self, user: str, method: str, url: str, reason: str):
         self.log.info(
             {
                 "event": "block",
                 "ts": _now(),
-                "user": _u(user),
+                "user": user,
                 "method": method,
-                "host": host,
-                "port": port,
-            },
+                "url": url,
+                "reason": reason,
+            }
         )
 
-
-# ------------------------------------------------------------------ #
-#  utilities
-# ------------------------------------------------------------------ #
-
-class _JsonFormatter(logging.Formatter):
-    def format(self, record):  # type: ignore[override]
-        if isinstance(record.msg, dict):
-            return json.dumps(record.msg, separators=(",", ":"))
-        return super().format(record)
-
-
-def _now() -> str:
-    return datetime.now(tz=timezone.utc).strftime(_ISO)
-
-
-def _u(user) -> str:
-    return getattr(user, "username", "")
+    def auth_fail(self, ip: str, supplied_user: str | None):
+        self.log.warning(
+            {
+                "event": "auth_fail",
+                "ts": _now(),
+                "ip": ip,
+                "user": supplied_user or "-",
+            }
+        )

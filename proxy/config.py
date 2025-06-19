@@ -12,7 +12,7 @@ class Config:
     log_path: str
 
 def load_config():
-    load_dotenv()
+    load_dotenv(override=True)
     return Config(
         listen_host=os.getenv("PROXY_LISTEN_HOST", "0.0.0.0"),
         listen_port=int(os.getenv("PROXY_LISTEN_PORT", 8080)),
