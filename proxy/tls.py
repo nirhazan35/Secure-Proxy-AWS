@@ -11,7 +11,7 @@ from __future__ import annotations
 from pathlib import Path
 
 
-def ensure_local_ca(ca_dir: str | Path = "certs") -> None:  # noqa: D401
+def ensure_local_ca(ca_dir: str | Path = "certs") -> None:
     """
     Ensure a local root-CA key+cert exist (lazy-creates with OpenSSL CLI).
     """
