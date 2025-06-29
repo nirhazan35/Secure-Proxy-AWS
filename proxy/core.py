@@ -18,12 +18,9 @@ from .config import Config
 from .logger import ProxyLogger
 
 CRLF = b"\r\n"
-BUFFER = 65_536  # 64 KiB
+BUFFER = 65_536
 
 
-# --------------------------------------------------------------------------- #
-#  Public API
-# --------------------------------------------------------------------------- #
 def run_proxy(config: Config) -> None:
     proxy = ProxyServer(config)
     try:
@@ -32,9 +29,6 @@ def run_proxy(config: Config) -> None:
         print("\n▸ Proxy shut down.")
 
 
-# --------------------------------------------------------------------------- #
-#  Core server
-# --------------------------------------------------------------------------- #
 class ProxyServer:
     def __init__(self, cfg: Config) -> None:
         self.cfg = cfg
@@ -42,7 +36,6 @@ class ProxyServer:
         self.acl = ACLChecker()
         self.logger = ProxyLogger(cfg.log_path)
 
-    # ───────────────────────────────────────────────────────────────────── #
     async def serve_forever(self) -> None:
         ssl_ctx = _server_ssl_context() if self.cfg.use_tls else None
         server = await asyncio.start_server(
@@ -58,7 +51,6 @@ class ProxyServer:
         async with server:
             await server.serve_forever()
 
-    # ───────────────────────────────────────────────────────────────────── #
     async def _handle_client(
         self,
         reader: asyncio.StreamReader,
@@ -68,11 +60,8 @@ class ProxyServer:
         peer_ip, _ = writer.get_extra_info("peername")
 
         try:
-            # ---- parse request head -------------------------------------------------
             req_line, headers = await _read_request_head(reader)
             method, target, _ = _parse_request_line(req_line)
-
-            # ---- auth & ACL ---------------------------------------------------------
             try:
                 user = await self._authenticate(headers)
             except AuthError as exc:
@@ -81,10 +70,9 @@ class ProxyServer:
                 raise ProxyError(407, "Proxy Authentication Required") from None
             await self._authorize(user, method, target)
 
-            # ---- block-list ---------------------------------------------------------
             host, port = _extract_host_port(method, target, headers)
             if self.blocklist.contains(host):
-                await _send_simple_response(writer, 451, b"Blocked by policy")
+                await _send_simple_response(writer, 451, b"Unauthorized website, blocked by policy.")
                 self.logger.block(
                     user.username if user else "-",
                     method,
@@ -93,7 +81,6 @@ class ProxyServer:
                 )
                 return
 
-            # ---- log start ----------------------------------------------------------
             full_url = target if method.upper() != "CONNECT" else f"{host}:{port}"
             self.logger.start(
                 user.username if user else "-",
@@ -103,28 +90,31 @@ class ProxyServer:
                 headers.get("user-agent", ""),
             )
 
-            # ---- forward ------------------------------------------------------------
             if method.upper() == "CONNECT":
                 await self._tunnel_https(reader, writer, host, port)
             else:
                 await self._forward_http(reader, writer, req_line, headers, host, port)
 
-            # ---- log end ------------------------------------------------------------
             self.logger.end(
                 user.username if user else "-",
                 method,
                 full_url,
                 200,
-                0,  # byte-count (optional: track in _pipe_stream)
+                0,
                 int((time.time() - start_ts) * 1000),
             )
 
-        # --------------------------- error paths ------------------------------------
         except ProxyError as e:
-            await _send_simple_response(writer, e.status, e.msg.encode())
+            try:
+                try:
+                    await _send_simple_response(writer, e.status, e.msg.encode())
+                except ConnectionResetError:
+                    pass
+            except Exception:
+                pass
             if e.status != 407:
                 self.logger.end(
-                    "-",                       # we don’t know the user yet
+                    "-",
                     method if "method" in locals() else "-",
                     full_url if "full_url" in locals() else "-",
                     e.status,
@@ -133,7 +123,7 @@ class ProxyServer:
                     if "start_ts" in locals() else 0,
                 )
             return
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             await _send_simple_response(writer, 500, b"Internal Server Error")
             self.logger.end(
                 "-",
@@ -146,11 +136,13 @@ class ProxyServer:
         finally:
             try:
                 writer.close()
-                await writer.wait_closed()
-            except Exception:  # noqa: BLE001
+                try:
+                    await writer.wait_closed()
+                except ConnectionResetError:
+                    pass
+            except Exception:
                 pass
 
-    # ───────────────────────────────────────────────────────────────── #
     async def _authenticate(self, headers: Dict[str, str]) -> Optional[User]:
         if not self.cfg.auth_enabled:
             return None
@@ -161,10 +153,7 @@ class ProxyServer:
     ) -> None:
         if user and not self.acl.permit(user, method, target):
             raise ProxyError(403, "Forbidden")
-
-    # ------------------------------------------------------------------ #
-    #  Data pipelines
-    # ------------------------------------------------------------------ #
+        
     async def _tunnel_https(
         self,
         client_reader: asyncio.StreamReader,
@@ -174,7 +163,7 @@ class ProxyServer:
     ) -> None:
         try:
             remote_reader, remote_writer = await asyncio.open_connection(host, port)
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             raise ProxyError(502, f"Upstream connect failed: {e}") from e
 
         await _send_simple_response(client_writer, 200, b"Connection Established")
@@ -193,7 +182,7 @@ class ProxyServer:
     ) -> None:
         try:
             remote_reader, remote_writer = await asyncio.open_connection(host, port)
-        except Exception as e:  # noqa: BLE001
+        except Exception as e:
             raise ProxyError(502, f"Upstream connect failed: {e}") from e
 
         remote_writer.write(_rebuild_request_head(req_line, headers))
@@ -205,9 +194,6 @@ class ProxyServer:
         )
 
 
-# --------------------------------------------------------------------------- #
-#  Low-level utilities (unchanged except hop-by-hop set moved to module scope)
-# --------------------------------------------------------------------------- #
 class ProxyError(Exception):
     def __init__(self, status: int, msg: str):
         self.status = status

@@ -20,9 +20,8 @@ def _now() -> str:  # RFC-3339 without microseconds
 
 
 class _PlainFormatter(logging.Formatter):
-    """ e.g. 2025-06-19T15:07:02Z alice 127.0.0.1 GET http://e.com/ 200 4 327B 89 ms """
 
-    def format(self, record):  # type: ignore[override]
+    def format(self, record):
         d: Dict[str, Any] = record.msg if isinstance(record.msg, dict) else {}
         if record.levelno >= logging.ERROR:
             return super().format(record)
@@ -36,7 +35,7 @@ class _PlainFormatter(logging.Formatter):
         ]
         if record.msg["event"] == "block":
             parts.extend(["BLOCKED", d.get("reason", "")])
-        else:  # end
+        else:
             parts.extend(
                 [
                     str(d.get("status", "-")),
