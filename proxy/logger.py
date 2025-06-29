@@ -53,7 +53,7 @@ class _JSONFormatter(logging.Formatter):
 
 class ProxyLogger:
     def __init__(self, basename: str | Path):
-        root = logging.getLogger("proxy")
+        root = logging.getLogger("logs")
         root.setLevel(logging.INFO)
         root.propagate = False  # don’t spam the root logger
 

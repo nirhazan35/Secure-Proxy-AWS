@@ -19,5 +19,5 @@ def load_config():
         use_tls=os.getenv("PROXY_USE_TLS", "false").lower() == "true",
         auth_enabled=os.getenv("PROXY_AUTH_ENABLED", "false").lower() == "true",
         blocklist_path=os.getenv("PROXY_BLOCKLIST_PATH", "blocklist.txt"),
-        log_path=os.getenv("PROXY_LOG_PATH", "proxy.log"),
+        log_path=os.getenv("PROXY_LOG_PATH", "logs.jsonl"),
     )
