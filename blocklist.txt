@@ -1,7 +1,7 @@
 # Exact domains
 example.com
 badsite.org
-test.com
+*.test.com
 
 # Wildcards
 *.ads.example.net
